@@ -1,0 +1,23 @@
+import java.util.*; 
+
+class student 
+
+{ 
+
+    void result(int maths,int english,int computer) 
+
+    { 
+
+        int res=((maths+english+computer)*100)/300; 
+
+        System.out.println("Maths="+maths); 
+
+        System.out.println("English="+english); 
+
+        System.out.println("Computer="+computer); 
+
+        System.out.println("Percentage="+res+"%"); 
+
+    } 
+
+} 
